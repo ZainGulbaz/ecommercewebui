@@ -1,4 +1,4 @@
-import { Box, Text, Fade } from "@chakra-ui/react";
+import { Box, Text, Fade, Collapse } from "@chakra-ui/react";
 import { FiSearch } from "react-icons/fi";
 import { BsPersonCircle } from "react-icons/bs";
 import { RiBriefcaseLine } from "react-icons/ri";
@@ -45,7 +45,7 @@ const Header = () => {
           <GiHamburgerMenu size="1.7em" cursor="pointer" />
         </Box>
       </Box>
-      <Fade in={isOpen}>
+      <Collapse in={isOpen}>
         <Box
           display={["flex", "none"]}
           flexDirection="column"
@@ -66,7 +66,7 @@ const Header = () => {
             {icons.map((icon) => icon)}
           </Box>
         </Box>
-      </Fade>
+      </Collapse>
     </>
   );
 };

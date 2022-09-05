@@ -15,7 +15,7 @@ const Promotions = () => {
         justifyContent={"space-around"}
         alignItems={"center"}
       >
-        <Text fontWeight={"bold"} fontSize={["sm", "md"]}>
+        <Text fontWeight={"bold"} fontSize={["xs", "md"]}>
           Free shipping on all UK orders!
         </Text>
         <Stack direction="row">
@@ -23,11 +23,11 @@ const Promotions = () => {
             name="Facebook"
             src={facebook}
             cursor={"pointer"}
-            size={["sm"]}
+            size={["xs", "sm"]}
           />
           <Avatar
             name="Instagram"
-            size={["sm"]}
+            size={["xs", "sm"]}
             src={instagram}
             cursor={"pointer"}
           />
@@ -35,7 +35,7 @@ const Promotions = () => {
             name="pinterest"
             src={pinterest}
             cursor={"pointer"}
-            size={["sm"]}
+            size={["xs", "sm"]}
           />
         </Stack>
       </Box>

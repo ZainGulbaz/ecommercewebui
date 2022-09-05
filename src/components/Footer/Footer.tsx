@@ -60,6 +60,7 @@ const Footer = () => {
         alignItems={"space-around"}
         height={["auto", "60vh"]}
         px="24"
+        marginTop={"10vh"}
       >
         <Box
           display={["none", "flex"]}
@@ -106,10 +107,10 @@ const Footer = () => {
         <Text
           marginTop={"4"}
           color="white"
-          fontSize={["sm", "md"]}
+          fontSize={["xs", "md"]}
           marginBottom={"2"}
         >
-          Copyright &copy; Funshion.All Right Reserved
+          Copyright &copy; Funshion.All Rights Reserved
         </Text>
       </Box>
     </>
